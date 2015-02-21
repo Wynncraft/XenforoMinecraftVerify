@@ -14,7 +14,7 @@ class Wynncraft_MinecraftVerify
     if($response == 'true') {
       return true;
     } else {
-      $error = 'Invalid Minecraft Username Entered'
+      $error = 'Invalid Minecraft Username Entered';
       return false;
     }
     
